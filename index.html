@@ -21,8 +21,68 @@
 <li>Sunrises hyderabad</li>
 <li>Royal challengers</li>
 </ul>
+<a href="aboutme.html">Image</a>
+
+<h4>Countries I would like to visit</h4>
+<style>
+    table,th,td{
+        border:1px solid rgba(0, 0,0, 0.658);
+        border-collapse:collapse;
+
+    }
+    </style>
+<table>
+    <tr>
+        <th>Country Name</th>
+        <th>Reason to visit</th>
+        <th>Number of days</th>
+    </tr>
+<tr>
+    <td>Australia</td>
+    <td>UK</td>
+    <td>Canada</td>
+</tr>
+<tr>
+    <td>Weather</td>
+    <td>Nature</td>
+    <td>Incredible cities</td>
+</tr>
+<tr>
+    <td>15</td>
+    <td>20</td>
+    <td>25</td>
+</tr>
+</table>
 
 
+<a href="https://css-tricks.com/snippets/sass/functional-programming-functions/">Functional programming functions</a>
+<pre >function walk($list, $function, $args...) {
+    @if not function-exists($function) {
+      @error "There is no `#{$function}` function.";
+    }
+    
+    @for $i from 1 through length($list) {
+      $list: set-nth($list, $i, call($function, nth($list, $i), $args...));
+    }
+    
+    @return $list;
+  }
+  
+
+    walk {
+    walk: walk(red green blue, invert);
+    walk: walk(red green blue, lighten, 20%);
+    walk: walk(2 4 6 8 10, sqrt);
+  }
+  
+    walk {
+        walk: cyan #ff7fff yellow;
+        walk: #ff6666 #00e600 #6666ff;
+        walk: 1.41421 2 2.44949 2.82843 3.16228;
+      }
+
+</pre>
+<a href="https://stackoverflow.com/questions/40675740/javascript-functional-programming-functions">Stack overflow code</a>
     </body>
 
     
